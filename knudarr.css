@@ -117,10 +117,9 @@
 }
 
 .knudarr .barraFim .personagemCard .carta .tras {
-    background-image: none;
+    background: #ccc url('https://i.imgur.com/aLKNWIx.png');
     width: 100%;
     height: 100%;
-    background-color: #ccc;
     transform: rotateY(180deg);
     margin: 0 auto;
 }
