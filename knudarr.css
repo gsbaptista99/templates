@@ -13,14 +13,93 @@
 .knudarr .topo {
     width: 100%;
     height: 200px;
-    background: url('https://i.imgur.com/xEcAg7J.gif') no-repeat;
+    background: url('./header.gif') no-repeat;
     background-size: cover;
     background-position: 100% 100%;
     filter: grayscale(100%);
 }
 
 .knudarr .barraTopo {
-    background: #121212;
-    color: red;
+    background: #212121;
+    color: #fff;
     font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 1.2em;
+}
+
+.knudarr .barraTopo .barra {
+    width: 30%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.125);
+    display: block;
+    margin: 10px auto;
+}
+
+.knudarr .barraTopo .titulo {
+    margin: 0 auto;
+    font-size: 1.5em;
+    display: table;
+}
+
+.knudarr .barraTopo .subTitulo {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.knudarr .barraFim {
+    background: #212121;
+    width: 100%;
+    overflow: hidden;
+}
+
+.knudarr .barraFim .personagemCard {
+    background-color: transparent;
+    width: 200px;
+    height: 300px;
+    margin: 10px auto;
+    perspective: 1000px;
+}
+
+.knudarr .barraFim .personagemCard:hover .carta {
+    transform: rotateY(180deg);
+}
+
+.knudarr .barraFim .personagemCard .carta {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.knudarr .barraFim .personagemCard .carta .frente,
+.knudarr .barraFim .personagemCard .carta .tras {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.knudarr .barraFim .personagemCard .carta .frente {
+    filter: grayscale(50%);
+    background: url('./card.jpeg') no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.knudarr .barraFim .personagemCard .carta .tras {
+    background-image: none;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transform: rotateY(180deg);
+    margin: 0 auto;
 }
