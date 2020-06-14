@@ -51,11 +51,19 @@
     overflow: hidden;
 }
 
+.knudarr .barraFim .caixaRodape {
+    display: flex;
+}
+
+.knudarr .barraFim .caixaRodape .caixaSpoiler{
+    flex-grow: 1;
+}
+
 .knudarr .barraFim .personagemCard {
     background-color: transparent;
     width: 200px;
     height: 300px;
-    margin: 10px auto;
+    margin: 10px;
     perspective: 1000px;
 }
 
