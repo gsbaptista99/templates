@@ -148,6 +148,34 @@
     margin: 0 auto;
 }
 
+.knudarr .barraFim .personagemCard .carta .atributos {
+    background: #000;
+    width: 85%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: helvetica, arial, sans-serif;
+    padding: 5px 1px;
+    font-size: 1em;
+}
+
+.knudarr .barraFim .personagemCard .carta ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    width: 85%;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.knudarr .barraFim .personagemCard .carta li {
+    border-bottom: 1px solid #000;
+    background: #cacaca;
+    text-align: left;
+    padding: 5px 15px;
+}
+
 .knudarr .barraFim .caixaRodape .caixaSpoiler .codebox.spoiler {
     margin: 10px!important;
     background: #191919;
