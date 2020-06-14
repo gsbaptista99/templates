@@ -41,6 +41,11 @@
     display: table;
 }
 
+.knudarr .conteudo {
+    padding: 20px;
+}
+
+
 .knudarr .barraTopo .subTitulo {
     color: rgba(255, 255, 255, 0.25);
 }
