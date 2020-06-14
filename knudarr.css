@@ -12,7 +12,7 @@
 .knudarr .topo {
     width: 100%;
     height: 200px;
-    background: url('./header.gif') no-repeat;
+    background: url('https://i.imgur.com/vihV0G0.gif') no-repeat;
     background-size: cover;
     background-position: 100% 100%;
     filter: grayscale(100%);
@@ -86,7 +86,7 @@
 
 .knudarr .barraFim .personagemCard .carta .frente {
     filter: grayscale(50%);
-    background: url('./card.jpeg') no-repeat;
+    background: url('https://i.imgur.com/Nqd7uzL.jpg') no-repeat;
     background-position: top center;
     width: 100%;
     height: 100%;
