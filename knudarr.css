@@ -68,10 +68,6 @@
     justify-content: center;
 }
 
-.knudarr .barraFim .caixaRodape .caixaSpoiler .codebox.spoiler {
-    margin: 10px!important;
-}
-
 .knudarr .barraFim .personagemCard {
     background-color: transparent;
     width: 200px;
@@ -134,4 +130,15 @@
     height: 100%;
     transform: rotateY(180deg);
     margin: 0 auto;
+}
+
+.knudarr .barraFim .caixaRodape .caixaSpoiler .codebox.spoiler {
+    margin: 10px!important;
+    background: #191919;
+    text-align: center;
+    padding: 5px;
+}
+
+.knudarr .barraFim .caixaRodape .caixaSpoiler .spoiler_closed {
+    display: none;
 }
