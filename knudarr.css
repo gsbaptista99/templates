@@ -16,6 +16,19 @@
     background-size: cover;
     background-position: 100% 100%;
     filter: grayscale(100%);
+    position: relative;
+}
+
+.knudarr .topo .contador {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,.65);
+    padding: 5px 8px 5px 12px;
+    border-radius: 0px 0px 0px 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2em;
+    font-weight: 700;
 }
 
 .knudarr .barraTopo {
