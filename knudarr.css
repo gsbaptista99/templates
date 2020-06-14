@@ -139,6 +139,11 @@
     padding: 5px;
 }
 
+.knudarr .barraFim .caixaRodape .caixaSpoiler .codebox.spoiler dd {
+    background: transparent!important;
+}
+
 .knudarr .barraFim .caixaRodape .caixaSpoiler .spoiler_closed {
     display: none;
+    border: none!important;
 }
