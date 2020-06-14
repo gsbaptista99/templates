@@ -143,6 +143,11 @@
     background: transparent!important;
 }
 
+.knudarr .barraFim .caixaRodape .caixaSpoiler .codebox.spoiler .spoiler_content {
+    background: none!important;
+    border: none!important;
+}
+
 .knudarr .barraFim .caixaRodape .caixaSpoiler .spoiler_closed {
     display: none;
     border: none!important;
