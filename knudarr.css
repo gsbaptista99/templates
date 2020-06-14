@@ -78,7 +78,6 @@
     height: 300px;
     margin: 10px;
     perspective: 1000px;
-    border: 1px solid #ccc;
 }
 
 .knudarr .barraFim .personagemCard:hover .carta {
@@ -104,6 +103,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 1px solid #ccc;
 }
 
 .knudarr .barraFim .personagemCard .carta .frente {
