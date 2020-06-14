@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+.knudarrSimples {
+    background: #191919;
+    margin: 20px;
+    color: #f0f0f0;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+.knudarrSimples .topo {
+    position: relative;
+}
+
+.knudarrSimples .topo .contador {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,.65);
+    padding: 5px 8px 5px 12px;
+    border-radius: 0px 0px 0px 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.knudarrSimples .barraTopo {
+    background: #212121;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 1.2em;
+}
+
+.knudarrSimples .barraTopo .barra {
+    width: 30%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.125);
+    display: block;
+    margin: 10px auto;
+}
+
+.knudarrSimples .barraTopo .titulo {
+    margin: 0 auto;
+    font-size: 1.5em;
+    display: table;
+}
+
+.knudarrSimples .conteudo {
+    padding: 20px;
+}
+
+
+.knudarrSimples .barraTopo .subTitulo {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.knudarrSimples .barraFim {
+    background: #212121;
+    width: 100%;
+    overflow: hidden;
+}
+
+.knudarrSimples .barraFim .caixaRodape {
+    display: flex;
+}
+
+.knudarrSimples .barraFim .caixaRodape .caixaSpoiler {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.knudarrSimples .barraFim .caixaRodape .caixaSpoiler .codebox.spoiler {
+    margin: 10px!important;
+    background: #191919;
+    text-align: center;
+    padding: 5px;
+}
+
+.knudarrSimples .barraFim .caixaRodape .caixaSpoiler .codebox.spoiler dd {
+    background: transparent!important;
+}
+
+.knudarrSimples .barraFim .caixaRodape .caixaSpoiler .codebox.spoiler .spoiler_content {
+    background: none!important;
+    border: none!important;
+}
+
+.knudarrSimples .barraFim .caixaRodape .caixaSpoiler .spoiler_closed {
+    display: none;
+    border: none!important;
+}
