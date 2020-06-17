@@ -52,6 +52,9 @@
     padding: 20px;
 }
 
+.knudarr .conteudo p {
+    text-align: justify;
+}
 
 .knudarrSimples .barraTopo .subTitulo {
     color: rgba(255, 255, 255, 0.25);
