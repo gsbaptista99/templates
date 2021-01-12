@@ -95,6 +95,7 @@
     background: #414141;
     font-family: 'Roboto', sans-serif;
     line-height: 2em;
+    margin: 10px auto;
 }
 
 .okada .rodape .auxiliar .spoiler .spoiler_content {
@@ -102,11 +103,16 @@
     border: 0px solid transparent!important;
     padding: 10px!important;
     font-family: 'Roboto', sans-serif!important;
+    background-image: none!important;
+    font-size: 1.2em;
 }
 
 .okada .rodape .auxiliar .objetivos {
     list-style: none;
     font-family: 'Roboto', sans-serif!important;
+    margin: 0!important;
+    padding: 0!important;
+    text-align: left;
 }
 
 /* Carta */
