@@ -37,7 +37,7 @@ main {
 .okada .contador::before {
     content: "";
     display: block;
-    background: url('lotus.png') no-repeat;
+    background: url('https://i.postimg.cc/6pdKL6TN/lotus.png') no-repeat;
     background-size: contain;
     filter: grayscale(100%);
     width: 75px;
@@ -112,7 +112,7 @@ main {
 .cardFront {
     border: 1px solid #fff;
     box-sizing: border-box;
-    background: darkgrey url('redLevi.jpg') no-repeat;
+    background: darkgrey url('https://i.postimg.cc/tgkHwrhS/redLevi.jpg') no-repeat;
     background-size: 100%;
     background-position: left center;
     background-size: cover;
