@@ -76,6 +76,31 @@
 .okada .rodape {
     padding: 0 20px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.okada .rodape .auxiliar {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.okada .rodape .auxiliar .spoiler_closed {
+    display: none;
+}
+
+.okada .rodape .auxiliar .codebox {
+    background: #414141;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+}
+
+.okada .rodape .auxiliar .spoiler .spoiler_content {
+    background-color: #414141!important;
+    border: 0px solid transparent!important;
+    padding: 10px!important;
+    font-family: 'Roboto', sans-serif!important;
 }
 
 /* Carta */
