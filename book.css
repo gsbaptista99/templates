@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 @import url("https://nagoshiashumari.github.io/Rpg-Awesome/stylesheets/rpg-awesome.min.css");
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .okada {
@@ -103,8 +104,12 @@
     font-family: 'Roboto', sans-serif!important;
 }
 
-/* Carta */
+.okada .rodape .auxiliar .objetivos {
+    list-style: none;
+    font-family: 'Roboto', sans-serif!important;
+}
 
+/* Carta */
 .okada .carta {
     background-color: transparent;
     width: 200px;
