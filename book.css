@@ -1,22 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://nagoshiashumari.github.io/Rpg-Awesome/stylesheets/rpg-awesome.min.css");
-
-body {
-    background-color: #36454F;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
-main {
-    background-color: #1e1e1f;
-    width: 80%;
-    height: 100%;
-    max-width: 800px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .okada {
     border: 1px solid white;
@@ -28,13 +12,7 @@ main {
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 }
 
-.okada .contador .imagem {
-    width: 75px;
-    height: 50px;
-    margin: 0 auto;
-}
-
-.okada .contador::before {
+.okada .separador::before {
     content: "";
     display: block;
     background: url('https://i.postimg.cc/6pdKL6TN/lotus.png') no-repeat;
@@ -44,7 +22,7 @@ main {
     height: 50px;
 }
 
-.okada .contador {
+.okada .separador {
     text-align: center;
     width: 75px;
     height: 50px;
@@ -76,6 +54,8 @@ main {
 
 .okada .titulos h2 {
     margin-bottom: 40px;
+    font-size: 1.8em;
+    line-height: 1.2em;
 }
 
 .okada .titulos h2, .okada .titulos h3 {
@@ -88,18 +68,19 @@ main {
 
 .okada .corpo p {
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Carta */
 
-.card {
+.okada .carta {
     background-color: transparent;
     width: 200px;
     height: 250px;
     perspective: 1000px;
 }
 
-.cardInner {
+.okada .carta .lado {
     box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.50);
     position: relative;
     width: 100%;
@@ -109,7 +90,7 @@ main {
     transform-style: preserve-3d;
 }
 
-.cardFront {
+.okada .carta .lado .frente {
     border: 1px solid #fff;
     box-sizing: border-box;
     background: darkgrey url('https://i.postimg.cc/tgkHwrhS/redLevi.jpg') no-repeat;
@@ -118,16 +99,15 @@ main {
     background-size: cover;
 }
 
-.cardBack {
+.okada .carta .lado .tras {
     box-sizing: border-box;
     border: 1px solid #fff;
-    /* background: royalblue url('back.jpg') no-repeat; */
-    background: #6B6684;
+    background: #6B6684 url('https://i.postimg.cc/DwMCbX3z/back.jpg') no-repeat;
     background-size: cover;
     transform: rotateY(180deg);
 }
 
-.cardFront, .cardBack {
+.okada .carta .lado .frente, .okada .carta .lado .tras {
     display: block;
     position: absolute;
     width: 100%;
@@ -138,32 +118,29 @@ main {
     justify-content: center;
 }
 
-.card:hover .cardInner {
+.okada .carta:hover .lado {
     transform: rotateY(180deg);
 }
 
-.cardInner table {
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+.okada .carta .lado .tras table {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-collapse: collapse;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+    background: #55608f url('https://i.postimg.cc/DwMCbX3z/back.jpg') no-repeat;
+    background-size: cover;
 }
 
-.cardInner tr, .cardInner td {
-    /* background-color: rgba(255,255,255,0.3); */
-    /* color: #36454F; */
-    color: white
+.okada .carta .lado .tras tr, .okada .carta .lado .tras td {
+    color: black;
+    font-weight: bolder;
+    background: rgba(255, 255, 255, 0.4);
 }
 
-.cardInner table th {
-    background-color: #55608f;
-    color: #fff;
-}
-
-.cardInner .rank {
+.okada .carta .lado .tras .rank {
     font-size: 0.7em;
     background-color: #f45c70;
     color: #fff;
@@ -171,12 +148,6 @@ main {
     border-radius: 20px;
 }
 
-.cardInner table td:first-of-type {
-    font-weight: bolder;
-    font-size: 0.9em;
-}
-
-.cardInner table td:nth-of-type(2n) {
+.okada .carta .lado .tras table td:nth-of-type(2n) {
     text-align: left;
-    font-size: 0.8em;
 }
